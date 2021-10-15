@@ -1,11 +1,11 @@
-import { createGlobalStyle } from "styled-components"
+
 
 export const lightTheme = {
     background: '#fafafa',
     text: '#202124', //dark grey
     color: '#aa00ff', //purple
-    toggleBorder: '#FFF',
-  
+    toggleBorder: '#FFF', 
+    font: Georgia, 
 }
 
 export const darkTheme = {
@@ -16,11 +16,4 @@ export const darkTheme = {
   
 }
 
-export const GlobalStyles = createGlobalStyle`
-  body {
-    background: ${({ theme }) => theme.body};
-    color: ${({ theme }) => theme.text};
-    font-family: Tahoma, Helvetica, Arial, Roboto, sans-serif;
-    transition: all 0.50s linear;
-  }
-`
+
